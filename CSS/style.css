@@ -1,0 +1,29 @@
+
+
+#image1 {
+	max-width: 100%;
+	height: auto;
+}
+
+.header {
+	display: flex;
+  justify-content: space-between;
+	padding: 20px;
+	text-align: left;
+	background-color: lightgrey;
+	font-family: "Monaco";
+	font-size: 15px;
+	color: white;
+	-webkit-text-stroke: 0.1px white;
+}
+
+body {
+	margin:  0;
+}
+
+.title1 {
+	text-align: center;
+	width: 100%;
+	background-color: lightgrey;
+}
+
