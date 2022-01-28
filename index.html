@@ -10,7 +10,24 @@
 
 		<title> Sustainable Sister </title>  
 
-		<script src="./js/index.js"></script>
+		  <style>
+        	body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        	}
+        	@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        	}	
+    </style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
 
 	</head>
 
@@ -20,16 +37,63 @@
 		<!-- Put all content here -->
 		<div class="header">
 		<h1>Sustainable Sister</h1>
+			<div class="words">
+				<a href="#image6" class="text2">ABOUT</a>
+				<a href="#signU" class="text1">BLOG</a>
+				<a href="https://calendly.com/sustainablesister" class="text4">BOOK</a>
+				<a href="#sign" class="text3">RENT</a>
+			</div>
 		</div>
 
-		<img src="banner.png" id="image1">
+		<div class="intro"><img src="banner.png" id="image1"></div>
+		<img src="What.png" id="image6">
 
-		<div class="title1">
-		<h1> What is Sustainable Sister? </h1>
+		<div class="container1">
+			<img src="VC.png" id="image2">
+			<a href="https://calendly.com/sustainablesister" class="btn">Book</a>
+		</div>
+		
+		<div id="sign">
+			<div class="container2"> 
+			<img src="icons.png" id="image3">
+				<div>
+					<a href="#signU"><button class="formbutton">Sign Up</button></a>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="Me"><a href="https://www.instagram.com/nabihah.ahmad11/?hl=en"><img src="_Founder.png" id="image4"></a>
+		<img src="favs.png" id="image5">
 		</div>
 
-		<p> Welcome to Sustainable Sister! Your go-to source for learning about sustainable fashion. Here is a safe space to explore sustainability in fashion, with no judgement! Navigate our website to find tips, tricks, and how-to's to consumer fashion more ethically.  </p>
 
+		<form action="https://formspree.io/f/mjvlgako" method="POST">
+  			<div class="container" id="signU">
+   			<h2>Subscribe to our Blog</h2>
+   			<p>Sign up for weekly content.</p>
+  			</div>
+
+ 		 	<div class="container" style="background-color:black;">
+   		 	<input type="text" placeholder="Name" name="name" required>
+    		<input type="text" placeholder="Email address" name="mail" required>
+ 		 	</div>
+
+  			<div class="container">
+    		<input type="submit" value="Subscribe">
+  			</div>
+		</form>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194183096!2d-74.03927127135601!3d40.75904032921965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1642273161313!5m2!1sen!2sus" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+		<div class="end">
+			<head>© 2022 Sustainable Sister. All Rights Reserved.</head>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<a href="https://www.instagram.com/sustainablesister/?hl=en" class="fa fa-Instagram"></a>
+		</div>
+
+		<script src="./js/index.js"></script>
 	<body>
 
 <html>
