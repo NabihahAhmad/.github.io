@@ -1,196 +1,49 @@
-
-#image1 {
-	max-width: 100%;
-	max-height: auto;
+* {
+	margin:  0px;
+	text-decoration: none;
 }
 
-#image2 {
-	max-width: 100%;
-	height: auto;
+* h1 {
+	color: black;
 }
 
-#image3 {
-	max-width: 100%;
-	height: auto;
+* button {
+	cursor: pointer;
 }
 
-#image4 {
-	max-width: 100%;
-	height: auto;
+* button:hover {
+	background: #6E9277;
 }
-
-#image5 {
-	max-width: 100%;
-	height: auto;
-}
-
-#image6 {
-	max-width: 100%;
-	height: auto;
-}
-
-#image7 {
-	max-width: 100%;
-	height: auto;
-}
-
 
 .header {
 	display: flex;
   justify-content: space-between;
-	padding: 5px;
+	max-width: 100%;
+	padding: 20px;
 	text-align: left;
-	background-color: black;
-	font-family: "Monaco";
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: white;
+	font-family: "Inter";
 	font-size: 1.3vw;
-	color: White;
+	color: black;
 	align-items: center;
 	text-indent: 20px;
 }
 
-
-.header p {
-	text-indent: 20px;
-}
-
-.words {
+.headertext {
 	text-align: right;
 	display: flex;
   justify-content: space-between;
 }
 
-.intro button {
-	color: white;
-	background: black;
-	padding: 3vw 7vw;
-	font-size: 2vw;
-	font-family: "Times New Roman";
-	position: relative;
-  bottom: 19%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  border: none;
-  cursor: pointer;
-}
+/*home page's css*/
 
-.intro button:hover {
-  background-color: dimgrey;
-}
-
-html {
-	scroll-behavior: smooth;
-}
-
-
-body {
-	margin:  0;
-}
-
-.w3-container {
-	font-family: "Monaco";
-	font-size: 20px;
-	background-color: whitesmoke;
+.about {
+	font-family: Inter;
+	font-size: 1.3vw;
 	color: black;
-	text-align: center;
-	text-indent: 50px;
-	padding: 80px 80px;
-	line-height: 50px;
-}
-
-.w3-container p { 
-	width: auto; 
-	max-width: 80%;
-	margin-left:auto; 
-	margin-right:auto;
-}
-
-form {
-	margin-block-end:  0em;
-}
-@media only screen and (max-width: 800px) {
-  .w3-container {
-  	padding:  20px 20px;
-  }
-  .w3-container p {
-  	width: 100%;
-  	text-align: center;
-  }
-  input[type=submit] {
-  	width: 20% !important;
-  }
- }
-
-
-.container1 {
-  position: relative;
-  width: 100%;
-}
-
-.container1 img {
-  width: 100%;
-  height: auto;
-}
-
-
-.container1 .btn {
-  position: absolute;
-  top: 75%;
-  left: 61%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  font-size: 1.75vw;
-  padding: 1vw 2.5vw;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.container1 .btn:hover {
-  background-color: dimgrey;
-}
-
-#sign {
-  position: relative;
-  width: 100%;
-}
-
-#sign img {
-  width: 100%;
-  height: auto;
-}
-
-
-#sign .formbutton {
-  position: absolute;
-  top: 39%;
-  left: 24.5%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  color: white;
-  font-size: 1.75vw;
-  padding: 1.3vw 2.55vw;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-#sign .formbutton:hover {
-  background-color: dimgrey;
-}
-
-
-
-
-
-.text1 {
-	font-family: Garamond;
-	font-size: 1.3vw;
-	color: White;
 	position: relative;
 	text-align: right;
 	line-height: 60px;
@@ -198,10 +51,10 @@ form {
 	margin-right: 20px;
 }
 
-.text2 {
-	font-family: Garamond;
+.engineering {
+	font-family: Inter;
 	font-size: 1.3vw;
-	color: White;
+	color: black;
 	position: relative;
 	text-align: right;
 	line-height: 60px;
@@ -209,10 +62,10 @@ form {
 	margin-right: 20px;
 }
 
-.text3 {
-	font-family: Garamond;
+.fashion {
+	font-family: Inter;
 	font-size: 1.3vw;
-	color: White;
+	color: black;
 	position: relative;
 	text-align: right;
 	line-height: 60px;
@@ -220,10 +73,10 @@ form {
 	margin-right: 20px;
 }
 
-.text4 {
-	font-family: Garamond;
+.marketing {
+	font-family: Inter;
 	font-size: 1.3vw;
-	color: White;
+	color: black;
 	position: relative;
 	text-align: right;
 	line-height: 60px;
@@ -231,62 +84,626 @@ form {
 	margin-right: 20px;
 }
 
-
-.CF {
-	text-align: center;
-	background: black;
-	color: white;
-	font-family: "Monaco";
-	font-weight: 50px;
-	padding: 2px;
+.home {
+	display: flex;
+  font-family: Inter;
 }
 
-
-form {
-  border: 4px solid black;
+.home-text {
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 15%;
 }
 
-.container {
-  padding: 10px;
-  background-color: black;
-  font-family: "Times New Roman";
-  color: white;
-  text-align: center;
-  font-size: 30px;
-}
-
-.container p {
+.home-text p {
+	padding-top: 5%;
+	padding-bottom: 5%;
 	font-size: 20px;
-	line-height: 15px;
+	line-height: 1.2;
 }
 
-input[type=text], input[type=submit] {
-  width: 50%;
-  padding: 12px;
-  margin: 8px 0;
+.home-text button {
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+.home img {
+	margin-top: 5%;
+	margin-left: 20%;
+	width: 25%;
+}
+
+.hometext {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	font-family: Inter;
+}
+
+
+.I {
+	margin-top: 200px;
+	margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+}
+.I p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.I p span.typed-text {
+  font-weight: normal;
+  color: #FD8CA0;
+}
+.I p span.cursor {
   display: inline-block;
-  border: 1px solid #lightgrey;
-  box-sizing: border-box;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.I p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
 }
 
-
-input[type=submit] {
-  background-color: dimgrey;
-  color: white;
-  width: 15%;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  padding: 20px;
+  font-size: 1.3vw;
+  font-family: Inter;
+  text-align: center;
+  width:  300px;
 }
 
-input[type=submit]:hover {
-  opacity: 0.8;
-  cursor: pointer;
+.sections {
+	margin-top: 150px;
+	margin-right: 10%;
+	margin-left: 10%;
+	display:  flex;
+	flex-flow:  row wrap;
+	justify-content: center;
+	padding-bottom: 50px;
 }
 
-.end {
+.column img { 
+  opacity: 1; 
+} 
+
+.column img:hover { 
+  opacity: 0.5; 
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.column h3 {
+	padding: 20px;
+}
+
+.footer {
+	display: block;
+	font-family: Inter;
 	color: white;
 	background: black;
+	padding: 100px;
+
+}
+
+.footer i {
+	font-size: 36px;
+}
+
+.footer a {
+	text-decoration: none;
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.footername h1{
+	color: white;
+}
+
+/*Engineering page's css*/
+
+.E1 {
+	margin-top: 20px;
+}
+
+.E1 h1{
+	color:  white;
+	font-family: Inter;
+	font-size: 3rem;
+	position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.E1 img {
+	width: 100%;
+	height: auto;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.E2 {
+	text-align: left;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+	padding-bottom: 10%;
+	font-family: Inter;
+	margin-top: 15%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.E2 p{
+	font-size: 18px;
+}
+
+.research {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.research h1 {
+	font-family: Inter;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.projects {
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	display:  grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 35px;
+	font-family: Inter;
+	color: white;
+	width:  80%;
+}
+
+.projects img {
+	width:  100%;
+	height:  200px;
+	object-fit:  cover;
+}
+
+.projects h4 {
 	padding: 20px;
 	text-align: center;
 }
 
+.projects p {
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 1.5;
+}
+
+.projects button {
+	padding: 10px;
+	border-radius: 25px;
+	background: #CEDEEB;
+	cursor: pointer;
+}
+.PF {
+	padding: 20px;
+	background: #32436d;
+	border-radius: 25px;
+	box-shadow: grey 0px 5px 15px 5px;
+}
+
+.COV {
+	padding: 20px;
+	background: #8495c7;
+	border-radius: 25px;
+	box-shadow: grey 0px 5px 15px 5px;
+}
+
+.TB {
+	padding: 20px;
+	background: #32436d;
+	border-radius: 25px;
+	box-shadow: grey 0px 5px 15px 5px;
+}
+
+.Mentoring {
+	padding: 20px;
+	background: #8495c7;
+	border-radius: 25px;
+	box-shadow: grey 0px 5px 15px 5px;
+}
+
+.SchoolProjects {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.Awards {
+	font-family: Inter;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.Awards h1 {
+	font-size: 50px;
+}
+
+.Awards p {
+	padding: 15px;
+	font-size: 18px;
+}
+
+/*Fashion page's CSS*/
+
+.banner {
+	margin-top: 20px;
+}
+
+.labels {
+	margin-top: 15%;
+	margin-bottom: 15%;
+	font-size: 2.3vw;
+	font-family: Inter;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.stylist {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.stylist button {
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.styledesc {
+	font-family: Inter;
+}
+
+.styledesc h3{
+	font-size: 40px;
+	padding-top: 25%;
+	padding-bottom: 40px;
+}
+
+.styledesc p {
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+
+.founder {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-bottom: 60px;
+}
+
+.founderdesc {
+	font-family: Inter;
+}
+
+.founderdesc h3{
+	font-size: 40px;
+	padding-top: 18%;
+	padding-bottom: 40px;
+}
+
+.founderdesc p {
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+
+.founderdesc button {
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.article {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 30px;
+	font-family: Inter;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+.article h1 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.article p {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#artintro {
+	font-family: Inter;
+	font-size: 45px;
+	text-align: center;
+	padding: 40px;
+	margin-bottom: 5%;
+}
+
+.gallery {
+	margin-top: 10%;
+	margin-bottom: 5%;
+	font-family: Inter;
+	text-align: center;
+}
+
+/*marketing page CSS*/
+
+.mktngbuttons {
+	margin-top: 10%;
+	margin-bottom: 20%;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 50px;
+}
+
+.mktngbuttons img:hover {
+	opacity: 0.5; 
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.DMheader {
+	font-family: Inter;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.DMintro {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	font-family: Inter;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+}
+
+.DMintro h1{
+	font-size: 40px;
+	padding-top: 25%;
+	padding-bottom: 40px;
+}
+
+.DMintro p {
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+
+.DMintro img {
+	width: 100%;
+	height: auto;
+}
+
+.DMintro button {
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.Forge {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 30px;
+	font-family: Inter;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.Forge h1 {
+	padding-bottom: 20px;
+}
+
+.Forge p {
+	padding-bottom: 20px;
+}
+
+.forgedesc {
+	margin: 5%;
+	margin-top: 15%;
+}
+
+.CCE2 {
+	text-align: left;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+	font-family: Inter;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.CCE2 p{
+	font-size: 18px;
+}
 
 
+.CCheader {
+	font-family: Inter;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.TTvideos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+.TTvideos blockquote {
+	max-width: 325px !important;
+	margin-right:  30px;
+	margin-left:  30px;
+}
+
+.ccnumbers {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-bottom: 15%;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-family: Inter;
+}
+
+.ccnumbers div {
+	background: #EBDED4;
+	padding: 100px;
+	border-radius: 50%;
+}
+
+.ccnumbers div:hover {
+	background: #6E9277;
+}
+
+.logos {
+	font-family: Inter;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.logos h1 {
+	padding-bottom: 40px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .column {
+    font-size: 2vw;
+  }
+
+  .home {
+  	display:  block;
+  }
+
+  .home img {
+  	width: 50%;
+  	margin-left: 23%;
+  }
+
+  .hometext {
+  	margin-left: 10%;
+  	margin-right: 10%;
+  	font-size: 2vw;
+  }
+
+  .E1 h1 {
+  	top: 50%;
+  }
+
+  .projects {
+  	display: grid;
+  	grid-template-columns: 50% 50%;
+  }
+
+  .SchoolProjects {
+  	grid-template-columns: 100%;
+  }
+
+  .stylist {
+  	grid-template-columns: 100%;
+  }
+
+   .founder {
+  	grid-template-columns: 100%;
+  }
+
+  .gallery {
+  	grid-template-columns: 100%;
+  }
+
+  .article {
+  	grid-template-columns: 100%;
+  }
+
+  .mktngbuttons {
+  	grid-template-columns: 100%;
+  }
+
+  .DMintro {
+  	grid-template-columns: 100%;
+  }
+
+  .Forge {
+  	grid-template-columns: 100%;
+  }
+
+  .anyl {
+  	grid-template-columns: 100%;
+  }
+
+  .ccnumbers div{
+  	margin: 5%;
+  }
+
+}
