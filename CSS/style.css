@@ -88,11 +88,13 @@
 	display: grid;
 	grid-template-columns: 50% 50%;
   font-family: Inter;
+  margin-top: 5%;
 }
 
 .home-text {
 	margin-top: 25%;
-	margin-right: 25%;
+	margin-right: 35%;
+	margin-left: 5%;
 }
 
 .home-text p {
@@ -108,6 +110,7 @@
 	padding-right: 25px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	text-align: center;
 }
 
 
@@ -119,6 +122,8 @@
 
 .home img {
 	width: 70%;
+	margin-left: 25%;
+
 }
 
 .hometext {
@@ -210,10 +215,6 @@
 	padding: 20px;
 }
 
-.home-text {
-	margin-left: 15%;
-	margin-right: 15%;
-}
 
 .footer {
 	display: grid;
@@ -681,7 +682,7 @@
   	margin-left: 23%;
   }
 
-  .hometext {
+  .home-text {
   	margin-left: 10%;
   	margin-right: 10%;
   	font-size: 2vw;
