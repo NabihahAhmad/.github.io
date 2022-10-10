@@ -202,11 +202,12 @@
 }
 
 .footer {
-	display: block;
+	display: grid;
+	grid-template-columns: 40% 40% 20%;
 	font-family: Inter;
 	color: white;
 	background: black;
-	padding: 100px;
+	padding: 150px;
 
 }
 
@@ -214,7 +215,7 @@
 	font-size: 36px;
 }
 
-.footer a {
+.footericons a {
 	text-decoration: none;
 	background: white;
 	padding: 10px;
@@ -223,8 +224,23 @@
 
 .footername h1{
 	color: white;
+	font-size: 40px;
 }
 
+.footerlinks a {
+	color: white;
+}
+
+.footerlinks {
+	display:  flex;
+	flex-flow:  row wrap;
+	justify-content:  space-around;
+	align-content:  center;
+}
+
+.footericons {
+	margin-left: auto;
+}
 /*Engineering page's css*/
 
 .E1 {
@@ -704,6 +720,29 @@
 
   .ccnumbers div{
   	margin: 5%;
+  }
+
+  .footer {
+  	display:  flex;
+  	flex-flow:  column wrap;
+  	align-content:  left;
+  }
+
+  .footerlinks {
+  	flex-flow:  column wrap;
+  	align-content:  start;
+  }
+
+  .footerlinks a {
+  	padding-top:  10px;
+  }
+
+  .footer div {
+  	margin-top:  40px;
+  }
+
+  .footericons {
+  	margin-left:  0px;
   }
 
 }
