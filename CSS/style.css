@@ -121,7 +121,7 @@
 }
 
 .home img {
-	width: 70%;
+	width: 90%;
 	margin-left: 25%;
 
 }
@@ -678,14 +678,15 @@
   }
 
   .home img {
-  	width: 50%;
-  	margin-left: 23%;
+  	width: 70%;
+  	margin: 15%;
   }
 
   .home-text {
   	margin-left: 10%;
   	margin-right: 10%;
   	font-size: 2vw;
+  	margin-top: 0%;
   }
 
   .E1 h1 {
